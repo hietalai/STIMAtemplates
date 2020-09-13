@@ -1,0 +1,73 @@
+title: "Tentamen"
+subtitle: "Kurskod"
+author:
+- Linköpings universitet
+- Institutionen för datavetenskap, IDA
+- Avdelningen för Statistik och maskininlärning, STIMA
+date: ''
+output:
+  pdf_document: default
+  html_document:
+    df_print: paged
+header-includes:
+- \usepackage{float}
+- \usepackage{caption}
+- \usepackage{multirow}
+- \renewcommand{\and}{\\}  
+editor_options:
+  chunk_output_type: console
+---
+
+--------------------  -------------------------------------------------------------
+Kurskod och namn:     
+Datum och tid:        
+Jourhavande lärare:   
+Tillåtna hjälpmedel:  - Du får inte kommunicera med någon annan förutom examinator/teknisk hjälp 
+                        under pågående tentamen, eller på något annat sätt utnyttja rådande omständigheter. 
+                        En plagiatkontroll genom Urkund kommer ske för varje tentamen.
+                      - Lägg till följande yttrande i början eller slutet av dina lösningar, eller i en separat fil:
+                      *Jag intygar på heder och samvete att jag skrivit denna tentamen ärligt och inte* 
+                      *heller kommunicerat med någon annan än examinator/teknisk hjälp under tentamens gång.*
+Betygsgränser:        Tentamen omfattar totalt 40 poäng; 
+                      - betyg G fås vid minst 24 poäng;
+                      - betyg VG vid minst 32 poäng
+Antalet uppgifter:    
+Annan information:    Siffrorna i uppgifterna är påhittade.
+                      Saknas någon siffra för att kunna lösa uppgiften? Skriv då 
+                      tydligt ut att du saknar denna information, anta ett 
+                      godtyckligt värde och lös uppgiften med detta antagande.
+--------------------  -------------------------------------------------------------      
+
+\captionsetup[figure]{name = Figur}
+\captionsetup[table]{name = Tabell}
+\setcounter{table}{0}
+
+**Redovisa, tolka och motivera tydligt alla dina lösningar!**
+
+```{r setup, include=FALSE}
+
+# Logical if solutions are included in the file
+solutions <- FALSE
+# dir <- "D:/OneDrive/OneDrive - Linköpings universitet/Jobb/LiU/Programming/Automatic Examination + Solutions"
+# dir <- "C:/Users/hieta/OneDrive - Linköpings universitet/Jobb/LiU/Programming/Automatic Examination + Solutions"
+# dir <- "C:/Users/isahi12/OneDrive - Linköpings universitet/Jobb/LiU/Programming/Automatic Examination + Solutions"
+dir <- "F:/OneDrive/OneDrive - Linköpings universitet/Jobb/LiU/Programming/Automatic Examination + Solutions"
+
+require(xtable, quietly = TRUE)
+require(mvtnorm)
+require(dplyr)
+require(tidyr)
+require(ggplot2)
+require(stringr)
+require(VennDiagram)
+
+options(scipen=999)
+options(xtable.comment = FALSE,
+        xtable.table.placement="H")
+
+knitr::opts_chunk$set(echo = FALSE, results = "asis")
+
+
+seed <- 20200813
+
+```
