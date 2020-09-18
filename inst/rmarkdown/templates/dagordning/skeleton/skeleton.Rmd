@@ -1,0 +1,25 @@
+---
+title: "Ämne"
+subtitle: "Dagordning"
+author: 
+- "\\small Linköpings universitet"
+- "Institutionen för datavetenskap"
+- "Avdelningen i Statistik och maskininlärning"
+header-includes:
+   - \usepackage{float}
+   - \usepackage{caption}
+   - \usepackage{multirow}
+   - \pagestyle{empty}
+   - \renewcommand{\and}{\\} 
+output: pdf_document
+---
+
+1. Punkt 1
+
+2. Punkt 2
+
+3. Punkt 3
+
+
+
+

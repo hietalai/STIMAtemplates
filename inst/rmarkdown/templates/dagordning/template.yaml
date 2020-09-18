@@ -1,0 +1,4 @@
+name: Dagordning
+description: >
+   En mall för hur dagordningar kan skrivas i RMarkdown
+create_dir: FALSE
