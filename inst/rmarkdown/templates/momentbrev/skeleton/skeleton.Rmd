@@ -1,18 +1,54 @@
 ---
-title: "Template Title"
-author: "Your Name"
-date: "The Date"
-output: output_format
+title: "COURSE CODE AND MOMENT"
+subtitle: "COURSE NAME"
+author: 
+- "\\Large AUTHOR"
+- "\\small Linköpings universitet"
+- "Institutionen för datavetenskap"
+- "Avdelningen i Statistik och maskininlärning"
+header-includes:
+   - \pagestyle{empty}
+   - \renewcommand{\and}{\\} 
+output: pdf_document
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
+\thispagestyle{empty}
 
-## Adding an RMarkdown Template
+\rule{\textwidth}{1pt}
 
-This file is what a user will see when they select your template. Make sure that you update the fields in the yaml header. In particular you will want to update the `output` field to whatever format your template requires.
+## Momentet handlar om: \vspace{-2.5mm}
 
-This is a good place to demonstrate special features that your template provides. Ideally it should knit out-of-the-box, or at least contain clear instructions as to what needs changing.
 
-Finally, be sure to remove this message!
+## I slutet av momentet bör man kunna: \vspace{-2.5mm}
+
+- List
+- of
+- goals
+
+## Litteratur: \vspace{-2.5mm}
+**Momentets litteraturavsnitt**: \newline
+
+
+*Extra läsning*: \newline
+
+
+**Rekommenderade räkneuppgifter**: \newline
+
+**Lektionsuppgifter**: \newline
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
