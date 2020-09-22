@@ -14,7 +14,9 @@ header-includes:
 - \usepackage{float}
 - \usepackage{caption}
 - \usepackage{multirow}
-- \renewcommand{\and}{\\}  
+- \renewcommand{\and}{\\} 
+
+urlcolor: blue
 editor_options:
   chunk_output_type: console
 ---
@@ -23,10 +25,14 @@ editor_options:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## Introduktion
+# Introduktion
 
+## Datamaterial
 
-## Uppgifter
+# Uppgifter
 
+## Uppgift 1
 
-## Att lämna in
+## Uppgift 2
+
+# Att lämna in
