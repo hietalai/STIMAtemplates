@@ -4,8 +4,8 @@ subtitle: "COURSE NAME"
 author: 
 - "\\Large AUTHOR"
 - "\\small Linköpings universitet"
-- "Institutionen för datavetenskap"
-- "Avdelningen i Statistik och maskininlärning"
+- "\\small Institutionen för datavetenskap"
+- "\\small Avdelningen i Statistik och maskininlärning"
 header-includes:
    - \pagestyle{empty}
    - \renewcommand{\and}{\\} 
